@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>  
+            <h1  id="city" style="font-size: 150px;" class="center"> Bad Driburg </h1>  
+            <h1 id="date_m" style="font-size: 50px;" class="center"> 25 .09.2023 </h1> 
+            <h1 id="date_h" style="font-size: 50px;" class="center"> 25 .09.2023 </h1>   
+            <hr class="line">
+        </div>
+
+
+        <div class="cards center">
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h1 style=" text-align: center;"> Fajr </h1>
+                </div>
+                <div class="card-body">
+                    <h1 id="Fajr" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+                </div>
+            </div>
+
+
+
+            <div class="card ">
+              <div class="card-header">
+                  <h1 style="text-align: center;"> Sunrise </h1>
+              </div>
+              <div class="card-body">
+                  <h1 id="Sunrise" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+              </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header">
+                <h1 style="text-align: center;"> Dhuhr </h1>
+            </div>
+            <div class="card-body">
+                <h1 id="Dhuhr" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+            </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header">
+              <h1 style="text-align: center;"> Asr </h1>
+          </div>
+          <div class="card-body">
+              <h1 id="Asr" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+          </div>
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-header">
+            <h1 style="text-align: center;"> Maghrib </h1>
+        </div>
+        <div class="card-body">
+            <h1 id="Maghrib" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+        </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+          <h1  style="text-align: center;"> Isha </h1>
+      </div>
+      <div class="card-body">
+          <h1 id="Isha" class="center" style="height: 150px; color: black;"> 14:25 </h1>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        
+        <div class="center select-div">
+            <br><br>
+            <select name="" id="selector" class="selector_select">
+                <option value="Bad Driburg">Bad Driburg</option>
+                <option value="Pader born">Pader born</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Hamburg">Hamburg</option>
+                <option value="Cologne">Köln</option>
+                <option value="Munich">München</option>
+                <option value="Frankfurt">Frankfurt</option>
+                <option value="Stuttgart">Stuttgart</option>
+                <option value="Dusseldorf">Düsseldorf</option>
+                <option value="Essen">Essen</option>
+                <option value="Leipzig">Leipzig</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
